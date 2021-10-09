@@ -1,0 +1,1417 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+.nav-item-loginbtn{
+    width: 64px;
+    background-color: transparent;
+    border: none;
+    margin-top: 6px;
+}
+
+.nav-item-signupbtn{
+    width: 121px;
+    padding: 12px 0px;
+    margin-top: -6px;
+    border:none;
+    border-radius: 10px;
+    color:#FFFFFF;
+    background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
+}
+
+.header__section{
+    background: url('../img/background.svg') no-repeat center;
+    background-size: cover;
+    margin-top: 90px;
+}
+
+.header-items{
+    padding-top: 120px;
+}
+
+.header__item-info{
+    padding: 45px 18px 0 0;
+}
+
+.header__item-img{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item{
+    background-color: #FFE6D9;
+}
+
+.nav-item{
+    margin-right: 45px;
+}
+
+.nav-item:last-child{
+    margin-right: 0px;
+}
+
+.header__item-pretitle{
+    color:#F6762C;
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    position: relative;
+    margin: 0;
+    margin-top: 65px;
+}
+
+.header__item-title{
+    font-size: 39px;
+    line-height: 57px;
+    font-weight: bold;
+    opacity: 0.9;
+    max-width: 435px;
+    margin:0;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+.header__item-pretitle::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 45px;
+    border: 1px solid #F6762C;
+    left:145px;
+    top:16px;
+}
+
+.header__item-text{
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.6;
+    color:#190C05;
+    width: 432px;
+    margin-bottom: 45px;
+}
+
+.header__item-btn{
+    background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
+    color:#FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.header__item-img{
+    width: 704px;
+    height: 561px;
+    padding-bottom: 81px;
+}
+
+.aboutus__item-pretitle{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 205px;
+    color:#F6762C;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.aboutus__item-title{
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 57px;
+    max-width: 424px;
+    color:#190C05;
+    opacity: 0.9;
+}
+
+.aboutus__item_text{
+    max-width: 432px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #190C05;
+}
+.aboutus__item-btn{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 18px;
+    background: linear-gradient(90deg, #190C05C9 79%, #190C05C9 100%);
+}
+
+.aboutus__secondcolumn{
+    margin-top: 201px;
+}
+
+.aboutus__item-img{
+    margin-top: 110px;
+}
+
+.features__section{
+    padding: 110px 0 111px;
+}
+
+.features__item-card{
+    min-height: 206px;
+}
+
+.features__item-pretitle{
+    min-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F6762C;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.features__item-title{
+    color:#190C05;
+    font-size:39px;
+    font-weight: 500;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100%;
+    margin-top: 13px;
+    margin-bottom: 60px;
+    opacity: 0.9;
+}
+
+.features__item-card-img{
+    display:block;
+    margin:0px auto 0px auto;
+    min-width: 80px;
+    min-height: 80px;
+    margin-bottom: 25px;
+}
+
+.features__item-card-title{
+    font-size:25px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.features__item-card-text{
+    max-width:362px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download__app__section{
+    padding-bottom: 109px;
+}
+
+.download__app__item-pretitle{
+    font-size:16px;
+    line-height: 24px;
+    color:#F6762C;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.download__app__item-title{
+    font-size: 39px;
+    line-height: 57px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.download__app__item-text{
+    width: 457px;
+    margin: 0;
+}
+
+.download__app__button-wrapper{
+    padding-top: 40px;
+}
+
+.download__app__item-button{
+    margin-right: 25px;
+}
+
+.download__app-btn-img{
+    width: 156px;
+    height: 54px;
+}
+
+.download__app__item-button:last-child{
+    margin-right: 0px;
+}
+
+.recipes__section{
+    padding-bottom: 110px;
+}
+
+.recipes__item-pretitle{
+    min-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F6762C;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.recipes__item-title{
+    color:#190C05;
+    font-size:39px;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100%;
+    margin-top: 13px;
+    margin:0;
+    opacity: 0.9;
+}
+
+.recipes__item-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 61px;
+    margin-bottom: 30px;
+}
+
+.recipes__item-card{
+    position: relative;
+    width:360px;
+    margin-right: 30px;
+    min-height:412px;
+}
+
+.recipes__item-card:last-child{
+    margin-right: 0px;
+}
+
+.recipes__item-card-text-wrapper{
+    background-color: rgba(246, 118, 44, 0.2);
+    border:2px solid rgba(246, 118, 44, 0.2);
+    border-radius: 25px;
+    margin-top:108px;
+}
+
+.recipes__item-card-title{
+    font-size:25px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0;
+    margin-top: 124px;
+    margin-bottom: 21px;
+}
+
+.recipes__item-card-text{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+    color:#190C05;
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+.recipes__item-card-img{
+    position: absolute;
+    margin: 0 auto;
+    left:92px;
+    bottom: 215px;
+}
+
+.recipes__item-price{
+    position: absolute;
+    width:58px;
+    height: 58px;
+    background-color:#190C05;
+    border-radius: 29px;
+    left:200px;
+    top:155px;
+    color:#FFFFFF;
+    border:2px solid #FFFFFF;
+}
+
+.price{
+    position: absolute;
+    left:4px;
+    top:14px;
+    margin:0;
+}
+
+.recipes__item-card-btn{
+    position: absolute;
+    border:2px solid #F6762C;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#F6762C;
+    background-color: #FFFFFF;
+   /* bottom: 80px;*/
+    bottom: -27px;
+    left:107px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.recipes__item-card-btn:hover{
+    background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
+    color:#FFFFFF;
+}
+
+.footer-top{
+    padding-top: 78px;
+    background-color: #FFE6D9;
+    border-bottom:1px solid rgba(25, 12, 5, 0.2);
+    padding-top: 78px;
+}
+
+.footer__wrapper{
+    padding-bottom: 80px;
+}
+
+.footer-top .footer-info{
+    margin-bottom: 75px;
+}
+
+.footer-top .footer__item-logo{
+    margin-left: -15px;
+}
+
+.footer-top .footer__item-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #190C05;
+    opacity: 0.9;
+}
+
+.footer-top .footer__item-socelement{
+    margin-right: 15px;
+}
+
+.footer-top .footer__item-socelement:last-child{
+    margin-right: 0px;
+}
+
+.footer-top h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#190C05;
+    opacity: 0.9;
+    padding-bottom: 30px;
+}
+
+.footer__links{
+    margin-bottom: 30px;
+}
+
+.footer__item-menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__item_menu-element {
+    padding:0px 0px 20px;
+
+}
+
+.footer__item_menu-element-link {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+    text-decoration: none;
+    color:#190C05;
+}
+
+.footer__item-form{
+    color: #190C05;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.textbox{
+    position: relative;
+    display: block;
+    padding: 0;
+    border-radius: 10px;
+    min-width: 262px;
+    height: 50px;
+    color: #190C05;
+    border: 1px solid #FFFFFF;
+    padding-left: 23px;
+}
+
+.newbtn{
+    /* width: 36px;
+     height: 36px;*/
+     border: none;
+     background-color: inherit;
+  /*   padding-top: 37px;*/
+     padding-top: 2px;
+     z-index: 1;
+     margin-left: -48px;
+ }
+
+ .footer__item-contact{
+    font-size:16px;
+    line-height: 24px;
+    color:#190C05;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer__contacts-list{
+    margin-top: 20px;
+    list-style:none;
+}
+
+.footer__item-contact-element-1{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer__item-contact-element-1::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width:14px;
+    height: 14px;
+    background-image: url('../img/tel.svg');
+    left:-25px;
+    top:5px;
+}
+
+.footer__item-contact-element-2{
+    position: relative;
+}
+
+.footer__item-contact-element-2::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width:14px;
+    height: 14px;
+    background-image: url('../img/mail.svg');
+    left:-25px;
+    top:5px;
+}
+
+.footer__bottom-wrapper{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-top:1px solid rgba(25, 12, 5, 0.2);
+}
+
+.footer__item-copyright{
+    padding: 35px 0 35px 0;
+}
+
+@media (max-width:1330px){
+
+    .header__item-info{
+
+    }
+
+    .downloadapp__item-img{
+        width:650px;
+    }
+}
+
+@media(max-width:1241px){
+    .header__item-img {
+        width: 624px;
+        height: 545px;
+    }
+}
+
+@media(max-width:1200px){
+
+    .aboutus__item-img {
+        width: 465px;
+    }
+
+    .footer__item-socimg{
+        
+    }
+
+    .footer-top .footer__item-socelement {
+        margin-right: 12px;
+    }
+
+    .footer-top .footer__item-text {
+        max-width: 225px;
+}
+
+@media(max-width:1170px){
+
+    .aboutus__item-img {
+        margin-top: 70px;
+        width: 484px;
+        height: 462px;
+    }
+
+    .aboutus__secondcolumn {
+        margin-top: 160px;
+        padding-left: 81px;
+    }
+}
+
+@media(max-width:1163px){
+
+    .downloadapp__item-img {
+    width: 600px;
+    }
+
+    .nav-item{
+        margin-right: 32px;
+    }
+
+    .header__item-img {
+        width: 564px;
+        height: 474px;
+    }
+}
+
+@media (max-width:1064px){
+
+    .downloadapp__item-img {
+        width: 550px;
+        height: 500px;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .aboutus__secondcolumn {
+        margin-top: 155px;
+    }
+
+    .downloadapp__item-img {
+        width: 550px;
+    }
+
+    .textbox{
+        min-width: 248px;
+    }
+
+    .newbtn{
+        margin-left: -52px;
+    }
+
+}
+
+@media(max-width:999px){
+    .textbox {
+        min-width: 245px;
+    }
+
+    .newbtn {
+        margin-left: -50px;
+    }
+
+    .header__item-title {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: bold;
+        opacity: 0.9;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .header__item-text {
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.6;
+        color: #190C05;
+    }
+}
+
+@media (max-width:993px){
+
+    .textbox {
+        min-width: 230px;
+    }
+}
+
+@media (max-width:991px){
+
+    .nav-item-loginbtn{
+        margin: 0 0 10px -9px;
+    }
+    
+    .nav-item-signupbtn {
+        width: 120px;
+        padding: 10px 0px;
+        margin-top: 0;
+    }
+
+    .header__item-pretitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header__item-pretitle::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 35px;
+        border: 1px solid #F6762C;
+        left: 124px;
+        top: 16px;
+    }
+
+    .header__item-info {
+        padding: 0;
+    }
+
+    .header-items {
+        padding-top: 20px;
+    }
+
+    .header__item-img {
+        width: 390px;
+        height: 430px;
+    }
+
+    .header__item-text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 30px;
+        max-width: 330px;
+    }
+
+    .aboutus__item-img {
+        width: 424px;
+        height: 442px;
+    }
+
+    .aboutus__item-title {
+        margin-top: 5px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .aboutus__item_text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 15px;
+        margin-bottom: 32px;
+    }
+
+    .aboutus__item-pretitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .features__section{
+        padding: 40px 0 41px;
+    }
+
+    .features__item-pretitle{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .features__item-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .features__item-card-title {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+
+    .features__item-card-text {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .download__app__item-pretitle {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 100px;
+    }
+
+    .download__app__item-text {
+        width: 300px;
+        margin: 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .download__app__item-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .download__app__button-wrapper {
+        padding-top: 25px;
+    }
+
+    .downloadapp__item-img {
+        width: 430px;
+    }
+
+    .download__app__item-button {
+        margin-right: 10px;
+    }
+
+    .download__app__section {
+        padding-bottom: 30px;
+    }
+
+    .recipes__item-pretitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .recipes__item-title{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .recipes__item-cards {
+        padding-top: 30px;
+    }
+
+    .recipes__item-card-text {
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.6;
+        color: #190C05;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+
+    .recipes__item-card-btn {
+        bottom: -12px;
+    }
+
+    .recipes__item-card:last-child {
+        margin-right: 30px;
+    }
+
+    .recipes__section {
+        padding-bottom: 40px;
+    }
+
+    .navbar-light .navbar-toggler {
+        width: 55px;
+        height: 40px;
+        color:#C65311;
+        background-color: #F6762C;
+    }
+    
+}
+
+@media (max-width:883px){
+
+    .header__item-img {
+        width: 360px;
+        height: 410px;
+    }
+
+    .features__section {
+        padding: 30px 0 10px;
+    }
+
+    .downloadapp__item-img {
+        width: 340px;
+        height: 400px;
+    }
+
+    .download__app__item-pretitle {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width:779px){
+
+    .aboutus__item-img {
+        margin-top: 55px;
+        width: 330px;
+        height: 345px;
+    }
+
+    .aboutus__secondcolumn {
+        margin-top: 125px;
+    }
+
+    .aboutus__item-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .aboutus__item_text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 15px;
+        margin-bottom: 32px;
+        color: #190C05;
+    }
+
+    .features__item-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .download__app__item-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .download__app__item-text {
+        width: 300px;
+        margin: 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .downloadapp__item-img {
+        width: 310px;
+        height: 340px;
+    }
+
+    .recipes__item-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .recipes__item-card {
+        margin-right: 0px;
+    }
+
+    .recipes__item-card:last-child {
+        margin-right: 0px;
+    }
+
+    .footer-top{
+        padding-top: 40px;
+    }
+
+    .footer__wrapper {
+        padding-bottom: 30px;
+    }
+
+    .footer__item-copyright {
+        padding: 20px 0 20px 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .header-items {
+        padding-top: 10px;
+    }
+
+    .header__item-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .header__item-img {
+        width: 310px;
+        height: 360px;
+    }
+
+    .header__item-text{
+        max-width: 320px;
+    }
+
+    .features__item-card-title {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    
+    .features__item-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .download__app__item-title{
+        width: 230px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .download__app-btn-img {
+        width: 126px;
+        height: 44px;
+    }
+
+    .recipes__item-title{ 
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width:753px){
+
+    .header__item-img {
+        width: 275px;
+        height: 325px;
+    }
+
+    .downloadapp__item-img {
+        width: 302px;
+        height: 312px;
+    }
+
+}
+
+@media (max-width:717px){
+
+    .header__item-img {
+        width: 255px;
+        height: 300px;
+    }
+    
+    .header__item-text {
+        margin-bottom: 15px;
+    }
+
+    .header__item-btn {
+        padding: 12px 24px;
+    }
+
+    .aboutus__item-btn{
+        padding: 12px 24px;
+    }
+
+    .downloadapp__item-img {
+        width: 270px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width:654px){
+
+    .downloadapp__item-img {
+        width: 250px;
+        height: 270px;
+    }
+    
+}
+
+@media(max-width:623px){
+    .header__item-img {
+        width: 230px;
+    }
+
+    .header__item-img {
+        padding-bottom: 55px;
+    }
+}
+
+@media (max-width:613px){
+
+    .downloadapp__item-img {
+        width: 230px;
+        height: 245px;
+    }
+    
+}
+
+@media (max-width:575px){
+
+    .downloadapp__item-img {
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    .download__app__item-pretitle{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .download__app__item-title{
+        margin: 0 auto;
+    }
+
+    .download__app__item-text{
+        margin: 10px auto 0 auto;
+    }
+
+    .download__app__button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download__app-btn-img {
+        width: 120px;
+        height: 40px;
+    }
+
+}
+
+@media(max-width:483px){
+
+    .header__item-text {
+        width: 245px;
+    }
+
+    .header__item-img {
+        width: 200px;
+    }
+
+    .aboutus__item-img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .aboutus__item_text{
+        margin-bottom: 20px;
+    }
+
+    .aboutus__item-btn {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 10px 20px;
+    }
+
+    .header__item-btn {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 10px 20px;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width:453px){
+    .aboutus__secondcolumn {
+        margin-top: 110px;
+        padding-left: 10px;
+    }
+
+    .aboutus__item-img {
+        width: 220px;
+        height: 240px;
+    }
+
+}
+
+@media(max-width:425px){
+    
+    .header__item-pretitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header__item-pretitle::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 25px;
+        border: 1px solid #F6762C;
+        left: 90px;
+        top: 10px;
+    }
+
+    .header__item-title {
+        font-size: 20px;
+        line-height: 22px;
+        width: 220px;
+    }
+
+    .header__item-text {
+        font-size: 12px;
+        line-height: 14px;
+        width: 210px;
+    }
+    
+    .header__item-img {
+        width: 180px;
+        height: 240px;
+        padding-bottom: 45px;
+    }
+
+    .header__item-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .aboutus__item-pretitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .features__section {
+        padding: 20px 0 10px;
+    }
+
+    .features__item-pretitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .aboutus__secondcolumn{
+        margin-top: 50px;
+    }
+
+    .aboutus__item-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .aboutus__item_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .aboutus__item-btn{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .aboutus__item-img {
+        width: 200px;
+        height: 220px;
+        margin-top: 15px;
+    }
+
+    .features__item-title{
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    .features__item-card {
+        min-height: 175px;
+    }
+
+    .features__item-card-title {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .features__item-card-img {
+        margin-bottom: 12px;
+    }
+
+    .features__item-card-text {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .download__app__section {
+        padding-bottom: 15px;
+    }
+
+    .download__app__item-pretitle{
+        margin-top: 10px;
+    }
+    
+    .recipes__item-pretitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .recipes__item-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .recipes__item-cards {
+        padding-top: 10px;
+    }
+
+    .footer-top{
+        padding-top: 15px;
+    }
+
+    .footer__wrapper {
+        padding-bottom: 10px;
+    }
+
+    .footer__item_menu-element {
+        padding: 0px 0px 10px;
+    }
+    
+    .footer__item_menu-element-link {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .footer-top .footer__item-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer-links{
+        margin-bottom: 10px;
+    }
+
+    .footer-top .footer-info {
+        margin-bottom: 25px;
+    }
+
+    .footer-top h4 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 0;
+    }
+
+    .footer__item-copyright {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 15px 0 15px 0;
+    }
+
+    .download__app__item-pretitle{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .download__app__item-title{
+        text-align: center;
+        font-size: 20px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .download__app__item-text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .recipes__item-card{
+        margin-right: 0;
+    }
+
+    .recipes__item-card:last-child {
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width:375px){
+
+    .header__item-img {
+        width: 160px;
+        height: 200px;
+        padding-bottom: 30px;
+    }
+
+    .aboutus__item-img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .recipes__item-card{
+        margin:0 auto;
+    }
+
+    .recipes__item-card:last-child{
+        margin:0 auto;
+    }
+
+    .recipes__item-card-btn{
+        left: 102px;
+    } 
+
+}
+
+@media (max-width:343px){
+
+    .header__item-img {
+        width: 145px;
+        height: 190px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+
+    .recipes__item-card-img {
+        position: absolute;
+        margin: 0 auto;
+        left: 72px;
+        bottom: 215px;
+    }
+
+    .recipes__item-price {
+        position: absolute;
+        width: 58px;
+        height: 58px;
+        background-color: #190C05;
+        border-radius: 29px;
+        left: 190px;
+        top: 145px;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+    }
+
+
+}
+
+@media (max-width:320px){
+
+    .header__item-img {
+        width: 130px;
+        height: 170px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .aboutus__item-img {
+        width: 160px;
+        height: 185px;
+        margin-top: 10px;
+    }
+
+    .aboutus__secondcolumn {
+        margin-top: 35px;
+    }
+
+    .download__app-btn-img {
+        width: 100px;
+        height: 33px;
+    }
+
+    .recipes__item-price {
+        left:180px;
+        top:140px;
+    }
+
+    .recipes__item-card-img {
+        left: 60px;
+        bottom: 215px;
+    }
+
+    .recipes__item-card-btn {
+        bottom: -12px;
+        left: 75px;
+    }
+}
