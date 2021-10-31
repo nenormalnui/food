@@ -25,8 +25,11 @@ body{
 }
 
 .header__section{
-    background: url('../img/background.svg') no-repeat center;
-    background-size: cover;
+    background: #ffe5d9; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ffe5d9 0%, #ffe5d9 53%, #ffffff 53%, #ffffff 53%, #faceb9 53%, #faceb9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ffe5d9 0%,#ffe5d9 53%,#ffffff 53%,#ffffff 53%,#faceb9 53%,#faceb9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ffe5d9 0%,#ffe5d9 53%,#ffffff 53%,#ffffff 53%,#faceb9 53%,#faceb9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe5d9', endColorstr='#faceb9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     margin-top: 90px;
 }
 
