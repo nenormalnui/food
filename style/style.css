@@ -1,7 +1,5 @@
-
 *{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,6 +14,10 @@ body{
     margin-top: 6px;
 }
 
+.nav-item-loginbtn:hover{
+    opacity: 0.8;
+}
+
 .nav-item-signupbtn{
     width: 121px;
     padding: 12px 0px;
@@ -23,14 +25,17 @@ body{
     border:none;
     border-radius: 10px;
     color:#FFFFFF;
-    background: -webkit-gradient(linear,left top, right top,from(#F6762C),to(#C65311));
-    background: -o-linear-gradient(left,#F6762C 0%,#C65311 100%);
     background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
+}
+
+.nav-item-signupbtn:hover{
+    opacity: 0.8;
 }
 
 .header__section{
     background: #ffe5d9;
-    background: -o-linear-gradient(315deg,  #ffe5d9 0%,#ffe5d9 53%,#ffffff 53%,#ffffff 53%,#faceb9 53%,#faceb9 100%);
+    background: -moz-linear-gradient(-45deg,  #ffe5d9 0%, #ffe5d9 53%, #ffffff 53%, #ffffff 53%, #faceb9 53%, #faceb9 100%);
+    background: -webkit-linear-gradient(-45deg,  #ffe5d9 0%,#ffe5d9 53%,#ffffff 53%,#ffffff 53%,#faceb9 53%,#faceb9 100%);
     background: linear-gradient(135deg,  #ffe5d9 0%,#ffe5d9 53%,#ffffff 53%,#ffffff 53%,#faceb9 53%,#faceb9 100%);
     margin-top: 90px;
 }
@@ -44,12 +49,8 @@ body{
 }
 
 .header__item-img{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
 }
 
 .menu-item{
@@ -107,8 +108,6 @@ body{
 }
 
 .header__item-btn{
-    background: -webkit-gradient(linear,left top, right top,from(#F6762C),to(#C65311));
-    background: -o-linear-gradient(left,#F6762C 0%,#C65311 100%);
     background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
     color:#FFFFFF;
     padding: 15px 30px;
@@ -161,9 +160,12 @@ body{
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 18px;
-    background: -webkit-gradient(linear, left top, right top, color-stop(79%, #190C05C9), to(#190C05C9));
-    background: -o-linear-gradient(left, #190C05C9 79%, #190C05C9 100%);
     background: linear-gradient(90deg, #190C05C9 79%, #190C05C9 100%);
+}
+
+.aboutus__item-btn:hover{
+    opacity: 0.8;
+    color:#FFFFFF;
 }
 
 .aboutus__secondcolumn{
@@ -296,12 +298,8 @@ body{
 }
 
 .recipes__item-cards{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding-top: 61px;
     margin-bottom: 30px;
 }
@@ -386,8 +384,6 @@ body{
 }
 
 .recipes__item-card-btn:hover{
-    background: -webkit-gradient(linear,left top, right top,from(#F6762C),to(#C65311));
-    background: -o-linear-gradient(left,#F6762C 0%,#C65311 100%);
     background: linear-gradient(90deg,#F6762C 0%,#C65311 100%);
     color:#FFFFFF;
 }
@@ -531,12 +527,8 @@ body{
 .footer__bottom-wrapper{
     padding: 0;
     margin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     border-top:1px solid rgba(25, 12, 5, 0.2);
 }
 
@@ -880,12 +872,8 @@ body{
     }
 
     .header__img-section{
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
 
     .header__item-img {
@@ -898,17 +886,12 @@ body{
     }
 
     .aboutus{
-        -ms-flex-wrap: wrap-reverse;
-            flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     }
 
     .aboutus__firstcolumn{
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
 
     .aboutus__secondcolumn {
@@ -951,7 +934,7 @@ body{
     }
 
     .download__app-btn-img {
-        width: 126px;
+        width: 105px;
         height: 44px;
     }
 
@@ -1012,142 +995,18 @@ body{
 
 }
 
-@media (max-width:717px){
 
-    .header__item-img {
-        width: 255px;
-        height: 300px;
-    }
-    
-    .header__item-text {
-        margin-bottom: 15px;
-    }
-
-    .header__item-btn {
-        padding: 12px 24px;
-    }
-
-    .aboutus__item-btn{
-        padding: 12px 24px;
-    }
-
+@media(max-width:610px){
     .downloadapp__item-img {
         width: 270px;
-        height: 300px;
-    }
-
-}
-
-@media (max-width:654px){
-
-    .downloadapp__item-img {
-        width: 250px;
-        height: 270px;
-    }
-    
-}
-
-@media(max-width:623px){
-    .header__item-img {
-        width: 230px;
-    }
-
-    .header__item-img {
-        padding-bottom: 55px;
     }
 }
 
-@media (max-width:613px){
-
-    .downloadapp__item-img {
-        width: 230px;
-        height: 245px;
-    }
-    
-}
-
-@media (max-width:575px){
-
+@media(max-width:575px){
     .downloadapp__item-img {
         display: block;
-        margin: 0 auto;
-        
+        margin:0 auto;
     }
-    
-    .download__app__item-pretitle{
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .download__app__item-title{
-        margin: 0 auto;
-    }
-
-    .download__app__item-text{
-        margin: 10px auto 0 auto;
-    }
-
-    .download__app__button-wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-
-    .download__app-btn-img {
-        width: 120px;
-        height: 40px;
-    }
-
-}
-
-@media(max-width:483px){
-
-    .header__item-text {
-        width: 245px;
-    }
-
-    .header__item-img {
-        width: 200px;
-    }
-
-    .aboutus__item-img {
-        width: 300px;
-        height: 320px;
-    }
-
-    .aboutus__item_text{
-        margin-bottom: 20px;
-    }
-
-    .aboutus__item-btn {
-        font-size: 14px;
-        line-height: 17px;
-        padding: 10px 20px;
-    }
-
-    .header__item-btn {
-        font-size: 14px;
-        line-height: 17px;
-        padding: 10px 20px;
-        margin-bottom: 35px;
-    }
-
-}
-
-@media (max-width:453px){
-    .aboutus__secondcolumn {
-        margin-top: 110px;
-        padding-left: 10px;
-    }
-
-    .aboutus__item-img {
-        width: 220px;
-        height: 240px;
-    }
-
 }
 
 @media(max-width:425px){
@@ -1181,9 +1040,7 @@ body{
     }
     
     .header__img-section{
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
 
     .header__item-img {
@@ -1192,7 +1049,7 @@ body{
     }
 
     .header__item-btn {
-        padding: 8px 12px;
+        padding: 15px 30px;
         font-size: 12px;
         margin-bottom: 15px;
     }
@@ -1225,15 +1082,14 @@ body{
         line-height: 14px;
     }
 
-    .aboutus__item-btn{
-        font-size: 12px;
-        padding: 8px 12px;
+    .aboutus__item-btn {
+        padding: 15px 25px;
     }
 
     .aboutus__item-img {
         width: 230px;
         height: 230px;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .features__item-title{
@@ -1268,7 +1124,7 @@ body{
     .download__app__item-pretitle{
         margin-top: 10px;
     }
-    
+
     .recipes__item-pretitle {
         font-size: 10px;
         line-height: 12px;
