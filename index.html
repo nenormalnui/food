@@ -67,7 +67,43 @@
     <div class="container">
     <section class="aboutus__section" id="about">
       <div class="aboutus row">
-          <div class="col-lg-6 col-md-7 col-sm-12 aboutus__firstcolumn"><img class="aboutus__item-img" src="img/aboutus.png" alt="aboutus img"></div>
+          <div class="col-lg-6 col-md-7 col-sm-12 aboutus__firstcolumn">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/slider-1.png" class="d-block slider-img" alt="slider_img">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider-2.png" class="d-block slider-img" alt="slider_img">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider-3.png" class="d-block slider-img" alt="slider_img">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider-4.png" class="d-block slider-img" alt="slider_img">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider-5.png" class="d-block slider-img" alt="slider_img">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon slider-toggle" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon slider-toggle" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
           <div class="col-lg-6 col-md-5 col-sm-12 aboutus__secondcolumn">
             <span class="aboutus__item-pretitle">About Us</span>
             <h3 class="aboutus__item-title">Every Meal is a Happy Meal.</h3>
@@ -103,7 +139,7 @@
     </section>
     <section class="download__app__section" id="download">
       <div class="download__app row">
-        <div class="col-lg-5 col-md-6 col-sm-7">
+        <div class="col-lg-5 col-md-6 col-sm-6">
           <p class="download__app__item-pretitle">
             Download
           </p>
@@ -116,14 +152,14 @@
           <a href="https://play.google.com/store?hl=ru&gl=US" class="download__app__item-button" target="_blank"><img src="img/googleplaybutton.png" class="download__app-btn-img" alt="Google play button"></a>
         </div>
         </div>
-        <div class="col-lg-7 col-md-6 col-sm-5"><img src="img/app.svg" class="downloadapp__item-img" alt="app__item-img"></img></div>
+        <div class="col-lg-7 col-md-6 col-sm-6"><img src="img/app.svg" class="downloadapp__item-img" alt="app__item-img"></img></div>
       </div>
     </section>
     <section class="recipes__section" id="recipes">
       <div class="container">
       <p class="recipes__item-pretitle">Recipes</p>
       <h2 class="recipes__item-title">Choose Your Favourite Food</h2>
-      <div class="recipes__item-cards row">
+    <div class="recipes__item-cards row">
         <div class="recipes__item-card col-lg-4">
           <img src="img/ellipse-1.png" alt="recipes image" class="recipes__item-card-img">
           <div class="recipes__item-price"><p class="price">$9.40</p></div>
@@ -152,6 +188,8 @@
           </div>
         </div>
       </div>
+
+    </div>
 
         </div>
 
