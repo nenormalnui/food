@@ -32,6 +32,23 @@ body{
     opacity: 0.8;
 }
 
+.active{
+    position: relative;
+    color:#F6762C;
+}
+
+.active::after{
+    color:#F6762C;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 11px;
+    height: 11px;
+    top: 14px;
+    left: -8px;
+    background-image: url('../img/hober.svg');
+}
+
 .header__section{
     background: #ffe5d9;
     background: -moz-linear-gradient(-45deg,  #ffe5d9 0%, #ffe5d9 53%, #ffffff 53%, #ffffff 53%, #faceb9 53%, #faceb9 100%);
@@ -458,6 +475,11 @@ body{
     color:#190C05;
 }
 
+.footer__item_menu-element-link:hover{
+    opacity: 0.6;
+    color: #000000;
+}
+
 .footer__item-form{
     color: #190C05;
     border-radius: 10px;
@@ -490,6 +512,11 @@ body{
     color:#190C05;
     text-decoration: none;
     opacity: 0.8;
+}
+
+.footer__item-contact:hover{
+    color:#000000;
+    opacity: 0.6;
 }
 
 .footer__contacts-list{
@@ -703,6 +730,10 @@ body{
         height: 40px;
         color:#C65311;
         background-color: #F6762C;
+    }
+
+    .active::after{
+        left:-18px;
     }
 
     .header__item-pretitle {
@@ -1045,6 +1076,11 @@ body{
 }
 
 @media(max-width:575px){
+
+    .active::after{
+        display: none;
+    }
+
     .downloadapp__item-img {
         display: block;
         margin:0 auto;
